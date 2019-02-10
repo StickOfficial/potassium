@@ -36,6 +36,9 @@ public:
 	float misc_bunnyhop;
 	float misc_autostrafe;
 	float misc_noisemaker_spam;
+	float misc_anti_aim;
+	float misc_anti_aim_x;
+	float misc_anti_aim_y;
 	float misc_anti_anti_aim;
 	float misc_anti_anti_aim_unsafe_x;
 

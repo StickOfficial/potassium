@@ -5,6 +5,7 @@
 #include "Triggerbot.h"
 #include "Misc.h"
 #include "AntiAntiAim.h"
+#include "AntiAim.h"
 
 //============================================================================================
 bool __fastcall Hooked_CreateMove(PVOID ClientMode, int edx, float input_sample_frametime, CUserCmd* pCommand)
@@ -24,6 +25,7 @@ bool __fastcall Hooked_CreateMove(PVOID ClientMode, int edx, float input_sample_
 		gMisc.Run(pLocal, pCommand);
 		gAim.Run(pLocal, pCommand);
 		gTrigger.Run(pLocal, pCommand);
+		gAntiAim.CreateMove(pLocal, pCommand);
 	}
 	catch(...)
 	{

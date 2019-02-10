@@ -1,4 +1,21 @@
-﻿  DLLMain.cpp
+﻿  VMTHooks.cpp
+  Util.cpp
+  Triggerbot.cpp
+  CSignature.cpp
+  Panels.cpp
+  Misc.cpp
+  Log.cpp
+  ESP.cpp
+  DLLMain.cpp
+  CNetVars.cpp
+  CMenu.cpp
+  Client.cpp
+  CDrawManager.cpp
+  CBaseEntity.cpp
+  AntiAntiAim.cpp
+  AntiAim.cpp
+  Aimbot.cpp
+  Generating Code...
 Aimbot.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-  Darkstorm.vcxproj -> C:\Users\ehy13\Desktop\potassium-master\Debug\potassium.dll
-  Darkstorm.vcxproj -> C:\Users\ehy13\Desktop\potassium-master\Debug\potassium.pdb (Full PDB)
+  Darkstorm.vcxproj -> C:\Users\ehy13\Desktop\Stuff\potassium-master\Debug\potassium.dll
+  Darkstorm.vcxproj -> C:\Users\ehy13\Desktop\Stuff\potassium-master\Debug\potassium.pdb (Full PDB)

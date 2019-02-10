@@ -49,6 +49,9 @@
     <ClCompile Include="AntiAntiAim.cpp">
       <Filter>Hacks\AntiAntiAim</Filter>
     </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Hacks\AntiAim</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CDrawManager.h">
@@ -117,6 +120,9 @@
     <ClInclude Include="AntiAntiAim.h">
       <Filter>Hacks\AntiAntiAim</Filter>
     </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Hacks\AntiAim</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Headers">
@@ -142,6 +148,9 @@
     </Filter>
     <Filter Include="Hacks\AntiAntiAim">
       <UniqueIdentifier>{53660918-b5c8-4b28-ad05-499245390b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\AntiAim">
+      <UniqueIdentifier>{5e564e35-2d0f-46a9-8a4c-1bfb49e1ed54}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
